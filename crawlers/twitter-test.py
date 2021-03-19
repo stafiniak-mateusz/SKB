@@ -2,8 +2,7 @@ import sys
 import tweepy
 import datetime
 import time
-TWEET_AUTH = ['Q5eYhiDb7cbnWT6ayiM6ofnEi', '86uNG87qQEbsnDvfm7V7MgCTBK6xmbRxoC4yrZe2BZoOZNGrXw',
-              '1271574958053998597-KHBfGfJTJ9ScxbGRf6RMJDsFFvEmD0', 'svnpz5KGamsyblihTwhf7Y50B4wKc4kjIoRmjZK4iGO8w']
+TWEET_AUTH = []
 
 
 auth = tweepy.OAuthHandler(TWEET_AUTH[0], TWEET_AUTH[1])
