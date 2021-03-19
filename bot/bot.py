@@ -33,7 +33,7 @@ def three_latest_api_call(title=None):
     url = f"{SKB_ENDPOINT}?limit=3"
     if title:
         if ('&' in title):
-            return "Nie baw się xD"
+            return "Ampersandy sa niedozwolone"
         url += f"&title={title}"
     print(url)
     try:

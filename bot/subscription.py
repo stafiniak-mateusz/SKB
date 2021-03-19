@@ -23,7 +23,7 @@ def send_random_news():
     results = responseAsJson["results"]
     randomArticle = random.randint(0, 19)
 
-    reply = f'<b>Siema mordo, widziałeś już to?</b>\n\n'
+    reply = f'<b>Cześć, widziałeś już to?</b>\n\n'
     reply += f'<b>News:</b> {results[randomArticle]["title"]}\n'
     reply += f'<b>Czytaj Więcej:</b> {results[randomArticle]["href"]}\n\n'
 
