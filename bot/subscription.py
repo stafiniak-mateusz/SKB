@@ -7,9 +7,9 @@ import pickle
 
 SKB_ENDPOINT = "http://127.0.0.1:8000/api/news/"
 
-
+BOT_TOKEN = "Placeholder"
 bot = telebot.TeleBot(
-    "1362539074:AAHalCYo18mnfIyqy7tmUu-XclQo3Up-K_s", parse_mode="HTML")
+    BOT_TOKEN, parse_mode="HTML")
 
 
 def send_notification():
